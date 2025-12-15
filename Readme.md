@@ -13,14 +13,18 @@ El paquete implementa un sistema simple de movimiento horizontal (`posicion_x`).
 La modularidad se logra mediante la siguiente estructura de archivos:
 #mini_turtle_task/ ├── mini_turtle/ <-- Directorio del Paquete │ ├── init.py <-- Interfaz Pública: Expone las funciones. │ └── drawer_logic.py <-- Lógica: Contiene el estado (posicion_x) y la implementación. └── main.py <-- Script de Prueba del Usuario.
 
+---
+
 ## 🛠️ Uso
 
 El paquete está diseñado para ser importado con una interfaz limpia, permitiendo a los usuarios acceder a las funciones directamente:
 
-```python
+
 from mini_turtle import adelante, abajo, reiniciar
 
-## 🐢 Funciones Principales de mini-turtle
+----
+
+## 🚀 Funciones Principales de mini-turtle
 
 | Función | Descripción | Efecto en el Estado Global (`posicion_x`) |
 | :--- | :--- | :--- |
@@ -28,6 +32,7 @@ from mini_turtle import adelante, abajo, reiniciar
 | `abajo()` | Simula un paso vertical (como dibujar). | **Ninguno** (solo imprime el valor actual de `posicion_x`). |
 | `reiniciar()` | Resetea la posición horizontal de la tortuga. | **Establece** `posicion_x` a **0**. |
 
+---
 
 ##Prueba
 

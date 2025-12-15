@@ -22,10 +22,10 @@ from mini_turtle import adelante, abajo, reiniciar
 
 ##🔑 Funciones Principales de mini-turtle
 
-##Función,Descripción,Efecto en el Estado Global (posicion_x)
-##adelante(),Mueve la tortuga un paso a la derecha.,Incrementa posicion_x en 1.
-##abajo(),Simula un paso vertical (como dibujar).,Ninguno (solo imprime el valor actual de posicion_x).
-##reiniciar(),Resetea la posición horizontal de la tortuga.,Establece posicion_x a 0.
+Función,Descripción,Efecto en el Estado Global (posicion_x)
+adelante(),Mueve la tortuga un paso a la derecha.,Incrementa posicion_x en 1.
+abajo(),Simula un paso vertical (como dibujar).,Ninguno (solo imprime el valor actual de posicion_x).
+reiniciar(),Resetea la posición horizontal de la tortuga.,Establece posicion_x a 0.
 
 ##Prueba
 
